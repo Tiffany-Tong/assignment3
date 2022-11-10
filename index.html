@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="./script.js" defer></script>
+ 
+  </head>
+  <body>
+ 
+    <h1 class="title"> Choose a movie from the dropdown <br> menu and press Get for movies: </h1>
+ 
+     <div class="selector">
+      <label for="movieselect" class="label">Movies:</label>
+      <select name="Movies" id="select">
+        <option value="despicable me">Despicable Me</option>
+        <option value="five feet apart">Five Feet Apart</option>
+        <option value="big hero 6">Big Hero 6</option>
+        <option value="falling inn love">Falling Inn Love</option>
+        <option value="letters to juliet">Letters to Juliet</option>
+        <option value="if anything happens i love you">If Anything Happens I Love You</option>
+        <option value="dead poets society">Dead Poets Society</option>
+        <option value="tall girl">Tall Girl</option>
+        <option value="a perfect pairing">A Perfect Pairing</option>
+        <option value="monster inc">Monster Inc</option>
+      </select>
+     
+      <button class="button" onclick="getMovies1()"> Get </button>
+ 
+      <div id="info">
+ 
+    </div>
+  </div>
+  </body>
+</html>
